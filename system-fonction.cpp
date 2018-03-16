@@ -23,7 +23,11 @@ bool win(float a, int b){
     return t2[i]==b;
 }
   
-
+int randNum(int min, int max)
+{
+int x = rand() % min +  max;
+return x;
+}
 
 
 int main(){
